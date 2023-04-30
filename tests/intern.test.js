@@ -6,7 +6,7 @@ test("Is the Intern constructor giving the proper info?", () => {
     expect(employee.name).toBe("Gustavo");
     expect(employee.id).toBe("25");
     expect(employee.email).toBe("toomuchcaffeine@gmail.com")
-    expect(employee.github).toBe("IvaTheKing")
+    expect(employee.school).toBe("IvaTheKing")
 });
 
 test("Is getName getting the name?", () => {
@@ -21,6 +21,6 @@ test("Is getEmail getting the email?", () => {
     expect(employee.email).toBe("toomuchcaffeine@gmail.com");
 });
 
-test("Is getGithub getting the github?", () => {
-    expect(employee.github).toBe("IvaTheKing")
+test("Is getSchool getting the school?", () => {
+    expect(employee.school).toBe("IvaTheKing")
 });
